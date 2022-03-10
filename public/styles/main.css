@@ -16,6 +16,7 @@ nav {
   font-family: 'Pacifico', cursive;
 }
 
+/* ------ navigation ------ */
 nav {
   margin: 0;
   overflow: hidden;
@@ -47,7 +48,27 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
+/* ------ main content ------ */
+aside,
+section {
+  float: left;
+}
+
+aside {
+  width: 25%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+section {
+  width: 60%;
+  background-color: rgba(200, 200, 200, 0.8);
+  border-radius: 20px;
+  padding: 2% 5%;
+  margin-top: 3%;
+}
+
 #logo {
-  width: 50%;
+  width: 80%;
   max-width: 500px;
 }
