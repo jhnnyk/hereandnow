@@ -68,6 +68,10 @@ section {
   margin: 3% 0 5% 0;
 }
 
+p img {
+  max-width: 100%;
+}
+
 #logo {
   width: 80%;
   max-width: 500px;
