@@ -1,6 +1,50 @@
 body {
   background: #000 url(../images/DSC02505.jpg) no-repeat center center fixed;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: 'Pacifico', cursive;
+}
+
+nav {
+  margin: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.8);
+  text-align: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav img {
+  height: 25px;
+  position: relative;
+  top: 5px;
+}
+
+nav > ul > li > a {
+  color: #ccc;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em;
+  text-decoration: none;
 }
 
 #logo {
